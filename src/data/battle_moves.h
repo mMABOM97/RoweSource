@@ -12401,6 +12401,16 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    [SPECIES_LUXRAY] =
+    {
+        .move = MOVE_WILD_CHARGE,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 100,
+        .modification2 = SIGNATURE_MOD_EFFECT_CHANCE,
+        .variable2 = 0,
+        .differentDescription = FALSE, 
+        .description = _("Default Description"),
+    },
     [SPECIES_CRANIDOS] =
     {
         .move = MOVE_HEADBUTT,
