@@ -25391,11 +25391,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_VENUSAUR_MEGA] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 100,
-        .baseDefense   = 123,
+        .baseHP        = 90,
+        .baseAttack    = 95,
+        .baseDefense   = 130,
         .baseSpeed     = 80,
-        .baseSpAttack  = 122,
+        .baseSpAttack  = 125,
         .baseSpDefense = 120,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_POISON,
@@ -25417,12 +25417,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CHARIZARD_MEGA_X] =
     {
-        .baseHP        = 78,
-        .baseAttack    = 130,
-        .baseDefense   = 111,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 130,
-        .baseSpDefense = 85,
+        .baseHP        = 75,
+        .baseAttack    = 140,
+        .baseDefense   = 110,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 120,
+        .baseSpDefense = 90,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_DRAGON,
         .catchRate = 45,
@@ -25442,11 +25442,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CHARIZARD_MEGA_Y] =
     {
-        .baseHP        = 78,
-        .baseAttack    = 104,
-        .baseDefense   = 78,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 159,
+        .baseHP        = 75,
+        .baseAttack    = 100,
+        .baseDefense   = 85,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 160,
         .baseSpDefense = 115,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
@@ -25467,12 +25467,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BLASTOISE_MEGA] =
     {
-        .baseHP        = 79,
-        .baseAttack    = 103,
+        .baseHP        = 80,
+        .baseAttack    = 100,
         .baseDefense   = 120,
-        .baseSpeed     = 78,
+        .baseSpeed     = 80,
         .baseSpAttack  = 135,
-        .baseSpDefense = 115,
+        .baseSpDefense = 125,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 45,
@@ -25677,8 +25677,8 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 95,
         .baseAttack    = 155,
-        .baseDefense   = 109,
-        .baseSpeed     = 81,
+        .baseDefense   = 110,
+        .baseSpeed     = 85,
         .baseSpAttack  = 70,
         .baseSpDefense = 130,
         .type1 = TYPE_WATER,
@@ -25902,9 +25902,9 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_TYRANITAR_MEGA] =
     {
         .baseHP        = 100,
-        .baseAttack    = 164,
+        .baseAttack    = 165,
         .baseDefense   = 150,
-        .baseSpeed     = 71,
+        .baseSpeed     = 70,
         .baseSpAttack  = 95,
         .baseSpDefense = 120,
         .type1 = TYPE_ROCK,
@@ -25927,10 +25927,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SCEPTILE_MEGA] =
     {
         .baseHP        = 70,
-        .baseAttack    = 110,
-        .baseDefense   = 75,
+        .baseAttack    = 145,
+        .baseDefense   = 85,
         .baseSpeed     = 145,
-        .baseSpAttack  = 145,
+        .baseSpAttack  = 110,
         .baseSpDefense = 85,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_DRAGON,
@@ -25954,7 +25954,7 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 80,
         .baseAttack    = 160,
         .baseDefense   = 80,
-        .baseSpeed     = 100,
+        .baseSpeed     = 110,
         .baseSpAttack  = 130,
         .baseSpDefense = 80,
         .type1 = TYPE_FIRE,
@@ -25979,7 +25979,7 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 100,
         .baseAttack    = 150,
         .baseDefense   = 110,
-        .baseSpeed     = 70,
+        .baseSpeed     = 75,
         .baseSpAttack  = 95,
         .baseSpDefense = 110,
         .type1 = TYPE_WATER,
@@ -26436,11 +26436,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GARCHOMP_MEGA] =
     {
-        .baseHP        = 108,
+        .baseHP        = 110,
         .baseAttack    = 170,
         .baseDefense   = 115,
-        .baseSpeed     = 92,
-        .baseSpAttack  = 120,
+        .baseSpeed     = 95,
+        .baseSpAttack  = 115,
         .baseSpDefense = 95,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_GROUND,
@@ -49868,7 +49868,7 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_DARMANITAN] =
     {
-        .baseHP        = 110,
+        .baseHP        = 105,
         .baseAttack    = 140,
         .baseDefense   = 55,
         .baseSpeed     = 95,
@@ -62131,7 +62131,7 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_DARMANITAN_GALARIAN] =
     {
-        .baseHP        = 110,
+        .baseHP        = 105,
         .baseAttack    = 140,
         .baseDefense   = 55,
         .baseSpeed     = 95,
@@ -64312,7 +64312,7 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_DARMANITAN_ZEN_MODE] =
     {
-        .baseHP        = 110,
+        .baseHP        = 105,
         .baseAttack    = 30,
         .baseDefense   = 105,
         .baseSpeed     = 55,
@@ -64341,7 +64341,7 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_DARMANITAN_ZEN_MODE_GALARIAN] =
     {
-        .baseHP        = 110,
+        .baseHP        = 105,
         .baseAttack    = 160,
         .baseDefense   = 55,
         .baseSpeed     = 135,
